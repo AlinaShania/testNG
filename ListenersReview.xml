@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="review.AbracadabraListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Denys/IdeaProjects/testNG/src/test/java/review/AbracadabraListener.java">
+        <classes>
+            <class name="review.Assertions"></class>
+        </classes>
+    </test>
+</suite>
